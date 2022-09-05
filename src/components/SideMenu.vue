@@ -1,0 +1,59 @@
+<template>
+  <div class="side-menu-area">
+    <h3>Features</h3>
+
+    <ul class="side-menu-tabs">
+      <li class="side-menu-tab"><a href="#/" >Home</a></li>
+      <li class="side-menu-tab"><a href="#/data-bind">Data bind</a></li>
+    </ul>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'SideMenu',
+  props: {
+    currentPath: String
+  }
+}
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+  .side-menu-area {
+    width: 15vw;
+    min-width: 200px;
+    flex-direction: column;
+    padding: 32px 0;
+    background-color: #a4a4a4;
+    border-right: 3px solid #8a8a8a;
+  }
+
+  h3 {
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  .side-menu-tabs {
+    text-align: left;
+    margin-top: 16px;
+  }
+
+  .side-menu-tabs li {
+    padding: 12px 20px;
+    vertical-align: center;
+    border-bottom: 1px solid #8a8a8a;
+    cursor: pointer;
+  }
+  .side-menu-tabs li:last-child {
+    border-bottom: none
+  }
+
+  .side-menu-tabs li.active,
+  .side-menu-tabs li:hover {
+    background-color: #8a8a8a;
+    font-weight: bold;
+    color: white;
+  }
+
+</style>
