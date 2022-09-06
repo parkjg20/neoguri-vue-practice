@@ -179,8 +179,9 @@ template {
 /**
  * Remove the gray background color from active links in IE 10.
  */
-
 a {
+  color: inherit;
+  text-decoration: none;
   background-color: transparent;
 }
 
@@ -546,6 +547,13 @@ div {
 .logo-image {
   justify-content: center;
   align-items: center;
+}
+
+.row {
+  flex-direction: row;
+}
+.col {
+  flex-direction: column;
 }
 
 </style>

@@ -40,11 +40,15 @@ export default {
   }
 
   .side-menu-tabs li {
-    padding: 12px 20px;
     vertical-align: center;
     border-bottom: 1px solid #8a8a8a;
     cursor: pointer;
   }
+  .side-menu-tabs li a {
+    display: flex;
+    padding: 12px 20px;
+  }
+
   .side-menu-tabs li:last-child {
     border-bottom: none
   }
