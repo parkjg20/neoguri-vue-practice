@@ -6,6 +6,7 @@
       <li class="side-menu-tab"><a href="#/" >Home</a></li>
       <li class="side-menu-tab"><a href="#/data-bind">Data bind</a></li>
       <li class="side-menu-tab"><a href="#/event-listeners">Event Listening</a></li>
+      <li class="side-menu-tab"><a href="#/modals">Modals</a></li>
     </ul>
   </div>
 </template>
